@@ -19,10 +19,7 @@ body{
     display:flex;
     justify-content:center;
 }
-.media_title{
-    padding-top:1rem;
-}
-.challenge_title{
+.media_title, .challenge_title, .themes_title{
     padding-top:1rem;
 }
 .profile_pic{
@@ -100,4 +97,35 @@ body{
                  -9px -9px 26px #575157;
     width:33%;
     padding:15px;
+}
+.assignment_link{
+    text-decoration:none;
+    color:black;
+}
+.assignment{
+    padding:1rem .6rem;
+    border-radius:10rem;
+    cursor:pointer;
+}
+.themes_wrapper, .changes_wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.themes_card, .changes_card{
+    border-radius: 46px;
+    background: linear-gradient(145deg, #393539, #433f43);
+    box-shadow:  9px 9px 26px #272527,
+                 -9px -9px 26px #575157;
+    width:80%;
+    padding:15px;
+    line-height:1.2;
+}
+.changes_card{
+    line-height:2;
+}
+.students_links{
+    margin:0;
+    color:Aqua;
+    cursor:pointer;
 }
